@@ -3,14 +3,14 @@
 ## installation
 
 ```shell
-mvn clean install 
+mvn clean install -DskipTests
 ```
 
 ## usage
 
 ```xml
 <plugin>
-    <groupId>org.jsonschema2pojo</groupId>
+    <groupId>fork.roccoshi</groupId>
     <artifactId>jsonschema2pojo-maven-plugin</artifactId>
     <version>1.1.5-SNAPSHOT</version>
     <configuration>
