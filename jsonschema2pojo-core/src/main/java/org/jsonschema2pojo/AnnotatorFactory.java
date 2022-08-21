@@ -54,8 +54,6 @@ public class AnnotatorFactory {
                 return new GsonAnnotator(generationConfig);
             case MOSHI1:
                 return new Moshi1Annotator(generationConfig);
-            case FASTJSON:
-                return new FastJson1Annotator(generationConfig);
             case NONE:
                 return new NoopAnnotator();
             default:
